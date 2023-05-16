@@ -1,0 +1,34 @@
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: #c9c9c9;
+}
+
+.container-fluid .btn{
+    border: 1px solid #354C3C;
+    background: #354C3C;
+    border-radius: 0;
+    color: #F4F4F4;
+}
+
+.container-fluid .btn:hover{
+    border: 1px solid #F4F4F4;
+    background: #222;
+    color: #F4F4F4;
+}
+
+#data{
+    background-color: white;
+    border: 1px solid black;
+    overflow-y: scroll;
+    max-height: 35rem;
+}
+
+#atras{
+    visibility: hidden;
+}
+
+#delante{
+    visibility: hidden;
+}

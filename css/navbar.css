@@ -1,0 +1,33 @@
+.navbar {
+    background:#354C3C;
+    font-weight: 900;
+}
+.nav-link,
+.navbar-brand {
+    color: #F4F4F4;
+    cursor: pointer;
+}
+.navbar-brand:hover {
+    color: #222;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #222;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+#logoutBoton{
+    border: 1px solid #354C3C;
+    background: #354C3C;
+    border-radius: 0;
+    color: #F4F4F4;
+}
+
+#logoutBoton:hover {
+    background: #354C3C;
+    color: #F4F4F4;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+	<title>Disney API</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="manifest" href="pwa/manifest.json">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Practica TAW">
+    <link rel="apple-touch-icon" href="images/icon.png">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<meta name="msapplication-TileImage" content="images/icon.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+	<script src="bootstrap/jquery-3.5.1.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vex-js/4.1.0/css/vex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vex-js/4.1.0/css/vex-theme-default.css">
+
+	
+</head>
+
+<body>
+
+	<header class="page-header header container-fluid">
+
+		<div class="overlay">
+			<div class="description">
+				<b><h1>Bienvenidos a la API de Disney</h1></b>
+				<p>Esta API tiene como finalidad encontrar personajes creados por Disney.</p>
+
+				<a class="btn btn-outline-secondary btn-lg"  href="disney.html" role="button">Empezar!</a>
+
+			</div>
+		</div>
+
+	</header>
+
+	<!-- Loader -->
+	<div class="loader">
+		<svg viewBox="0 0 32 32" width="32" height="32">
+			<circle id="spinner" cx="16" cy="16" r="14" fill="none"></circle>
+		</svg>
+	</div>  
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vex-js/4.1.0/js/vex.combined.min.js"></script>
+    <script>vex.defaultOptions.className = 'vex-theme-default';</script>
+	<script src="pwa/app.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>

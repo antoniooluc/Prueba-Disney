@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+	<title>Disney API</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/disney.css">
+	<link rel="manifest" href="pwa/manifest.json">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Practica TAW">
+    <link rel="apple-touch-icon" href="images/icon.png">
+    <meta name="msapplication-TileImage" content="images/icon.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+	<script src="bootstrap/jquery-3.5.1.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+	<div class="container-fluidd ">
+		<div class="row">
+			<div class="col-12 col-lg-4 col-md-4">
+				<div class="card">
+					<img src="images/todos.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Todos los personajes</h5>
+						<p class="card-text">Devuelve una lista con todos los personajes de Disney.</p>
+					</div>
+					<div class="card-footer text-center">
+						<a href="allPersonajes.html" class="btn btn-primary">Empezar!</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-lg-4 col-md-4">
+				<div class="card">
+					<img src="images/x.jpeg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Personajes por ID</h5>
+						<p class="card-text">Devuelve un personaje de Disney segun la ID pasada.</p>
+					</div>
+					<div class="card-footer text-center">
+						<a href="#" class="btn btn-primary">Coming Soon!</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-lg-4 col-md-4">
+				<div class="card">
+					<img src="images/y.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Personajes por nombre</h5>
+						<p class="card-text">Devuelve un personae de Disney segun el nombre pasado.</p>
+					</div>
+					<div class="card-footer text-center">
+						<a href="#" class="btn btn-primary">Coming Soon!</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vex-js/4.1.0/js/vex.combined.min.js"></script>
+    <script>vex.defaultOptions.className = 'vex-theme-default';</script>
+	<script src="pwa/app.js"></script>
+	<script src="js/main.js"></script>
+	
+</body>
+
+</html>

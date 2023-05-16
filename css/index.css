@@ -1,0 +1,73 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #F4F4F4;
+}
+
+.header {
+    background-image: url('../images/mickey.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+
+.description h1 {
+    color: white;
+    font-weight: 900;
+}
+
+.description p {
+    color: white;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.description .btn {
+    border: 1px solid #354C3C;
+    background: #354C3C;
+    border-radius: 0;
+    color: #F4F4F4;
+}
+
+.description .btn:hover {
+    border: 1px solid #F4F4F4;
+    background: #222;
+    color: #F4F4F4;
+}
+
+/** Loader */
+.loader {
+    left: 50%;
+    top: 50%;
+    position: fixed;
+    
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); 
+}
+
+.loader #spinner {
+    box-sizing: border-box;
+    stroke: #673AB7;
+    stroke-width: 3px;
+    -webkit-transform-origin: 50%;
+            transform-origin: 50%;
+    -webkit-animation: line 1.6s cubic-bezier(0.4, 0, 0.2, 1) infinite, rotate 1.6s linear infinite;
+            animation: line 1.6s cubic-bezier(0.4, 0, 0.2, 1) infinite, rotate 1.6s linear infinite; 
+}

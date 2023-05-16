@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <title>Disney API</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/navbar.css">
+        <link rel="manifest" href="pwa/manifest.json">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="Practica TAW">
+        <link rel="apple-touch-icon" href="images/icon.png">
+        <meta name="msapplication-TileImage" content="images/icon.png">
+        <meta name="msapplication-TileColor" content="#2F3BA2">
+        <script src="bootstrap/jquery-3.5.1.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-navigation">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Funcionalidad
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="disney.html">Índice</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="allPersonajes.html">Buscar Personajes</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Buscar Personaje por ID</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Buscar Personaje por Nombre</a>
+                        </div>
+                      </li>
+                    <li id="registroNav" class="nav-item">
+                        <a id="pruebaEnlace" class="nav-link" href="registro.html">Registrarse</a>                    
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vex-js/4.1.0/js/vex.combined.min.js"></script>
+        <script>vex.defaultOptions.className = 'vex-theme-default';</script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>

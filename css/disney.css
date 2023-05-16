@@ -1,0 +1,26 @@
+.container-fluidd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: #c9c9c9;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.container-fluidd .card{
+    margin: 1.5rem;
+    min-height: 22rem;
+}
+
+.container-fluidd .btn{
+    border: 1px solid #354C3C;
+    background: #354C3C;
+    border-radius: 0;
+    color: #F4F4F4;
+}
+
+.container-fluidd .btn:hover{
+    border: 1px solid #F4F4F4;
+    background: #222;
+    color: #F4F4F4;
+}

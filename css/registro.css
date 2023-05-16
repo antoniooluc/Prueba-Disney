@@ -1,0 +1,48 @@
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: #c9c9c9;
+    color: #354C3C;
+    height: 50rem;
+}
+
+form .btn{
+    border: 1px solid #354C3C;
+    background: #354C3C;
+    border-radius: 0;
+    color: #F4F4F4;
+}
+
+form .btn:hover {
+    border: 1px solid #F4F4F4;
+    background: #222;
+    color: #F4F4F4;
+}
+
+#emailHelp{
+    display: none;
+    color: #6F001D;
+}
+
+.thumbnail {
+    position: relative;
+    display: block;
+    margin: 1rem auto;    
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;    
+    background: #999;
+    overflow: hidden;
+}
+
+#frame {
+    position: absolute;
+    top: -9999px;
+    right: -9999px;
+    left: -9999px;
+    bottom: -9999px;
+    margin: auto;
+    max-width: 100%;
+}
