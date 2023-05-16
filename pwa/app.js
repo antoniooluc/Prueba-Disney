@@ -54,8 +54,8 @@
         reader.readAsDataURL(file);
 
     });
-
-    if(window.location.pathname.includes('index')){
+    console.log(window.location.pathname);
+    if(window.location.pathname.includes('index') || window.location.pathname == '/'){
         if ('getBattery' in navigator) {
 
             navigator.getBattery().then(function(battery) {
