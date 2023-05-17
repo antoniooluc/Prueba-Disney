@@ -66,7 +66,7 @@
             });
         } else{
             vex.dialog.alert ({
-                unsafeMessage: "No se puedo obtener el nivel de bateria"
+                unsafeMessage: "No se pudo obtener el estado de la bateria"
             });
         }
     }

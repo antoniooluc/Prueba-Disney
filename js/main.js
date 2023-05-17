@@ -42,6 +42,13 @@ function printResults(results, pagTotales) {
   } else {
     $('#delante').css("visibility", "hidden");
   }
+
+  let containerFluid = document.querySelector('.container-fluid')
+
+  containerFluid.style.height = $(window).height() + 200 + "px";
+  containerFluid.style.display = "block";
+
+
 }
 
 function getFishWatchDataFETCH(disney) {
