@@ -154,6 +154,7 @@ function borrarTodo() {
 
 function borrarUsuario(){
   localStorage.removeItem("name");
+  localStorage.removeItem("fotoPWA");
   location.reload();
 }
 
