@@ -3,12 +3,12 @@
     "short_name": "Practica TAW",
     "icons": [{
       "src": "images/icon.png",
-        "sizes": "100x100",
+        "sizes": "180x180",
         "type": "image/png"
       }],
     "start_url": "/index.html",
     "display": "fullscreen",
-    "background_color": "#0074D9",
-    "theme_color": "#0074D9"
+    "background_color": "#354C3C",
+    "theme_color": "#354C3C"
   }
   

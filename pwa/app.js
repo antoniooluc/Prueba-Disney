@@ -64,7 +64,11 @@
             });
               
             });
-        } 
+        } else{
+            vex.dialog.alert ({
+                unsafeMessage: "No se puedo obtener el nivel de bateria"
+            });
+        }
     }
 
     // Remove loading
