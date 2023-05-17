@@ -2,8 +2,8 @@
     "name": "API Disney",
     "short_name": "Practica TAW",
     "icons": [{
-      "src": "../images/iconDisney.png",
-        "sizes": "50x50",
+      "src": "../images/icon.png",
+        "sizes": "180x180",
         "type": "image/png"
       }],
     "start_url": "/index.html",
